@@ -1,0 +1,23 @@
+{
+  "manifest_version": 4,
+  "type": "extension",
+  "name": "QQScreenshotSwitch",
+  "slug": "qqsss",
+  "description": "切换 QQ 新版/旧版截图",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Il Harper",
+      "link": "https://github.com/ilharp"
+    }
+  ],
+  "repository": {
+    "repo": "bakyrd/QQScreenshotSwitch",
+    "branch": "master"
+  },
+  "platform": ["win32", "linux", "darwin"],
+  "dependencies": [],
+  "injects": {
+    "main": "./index.js"
+  }
+}
