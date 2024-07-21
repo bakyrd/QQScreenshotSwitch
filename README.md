@@ -70,3 +70,22 @@ LiteLoaderQQNT 的官网上提供了详细的安装方法，安装好之后就�
 
 因为原理比较简单+本人写的代码比较烂所以不开源了，感兴趣的小伙伴可以自己动手试一试实现。有问题可以直接开 Issue
 或者到 [同步发的 52 论坛帖子](https://www.52pojie.cn/thread-1941589-1-1.html) 下面直接回帖。
+
+## FAQ
+
+### Releases 里的文件有三个，应该下载哪个？
+
+如果你是 TI 用户，那么下载里面的 `qqsss-v1.0.0.ti.bin` 这样的文件即可。
+
+如果你不知道什么是 TI，那就是普通用户，下载 `Source code (zip)` 这一项即可。
+
+### 插件没有生效
+
+1. 首先确认你是否下载的是最新版的 QQScreenshotSwitch，老的 v1.0.0 版本有不生效的 bug。
+1. 然后检查你是否修改了 `config.txt`，指定了你想要的模式——插件默认情况下就是什么都不做的。
+1. 确认 `config.txt` 已修改后，启动 QQ，正常登录账号后，等几秒以后再重启 QQ。
+1. 如果你使用的是最新版 QQScreenshotSwitch，重启了 QQ 还是不生效的话，换用 [v1.0.1](https://github.com/bakyrd/QQScreenshotSwitch/releases/tag/v1.0.1) 版本。
+
+### 插件生效了，但左侧侧边栏部分按钮消失了
+
+换用最新版的 QQScreenshotSwitch 即可。
